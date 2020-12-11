@@ -1,0 +1,8 @@
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "TG-1 first commit"
+git branch -M TG-1 main
+git remote add origin https://github.com/LucaTomas1975/test.git
+git push -u origin main
+                
